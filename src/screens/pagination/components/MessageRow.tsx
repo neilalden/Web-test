@@ -65,7 +65,8 @@ const MessageFromOthers = (props: Props) => {
                 <div className="col align-items-end">
                     <div
                         style={{
-                            background: Colors["billing"]
+                            background: "#edfbea",
+                            color: Colors.black500,
                         }}
                         className="br-5px pv-3px ph-10px">
                         {message.message}
