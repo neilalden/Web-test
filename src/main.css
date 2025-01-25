@@ -65,6 +65,63 @@ button {
 	display: grid;
 }
 
+.scroll-hidden {
+	overflow-y: hidden !important;
+	scrollbar-gutter: stable !important;
+}
+
+.scroll-hidden:hover {
+	overflow-y: scroll !important;
+}
+
+.overflow-x-scroll {
+	overflow-x: scroll !important;
+}
+
+.overflow-y-scroll {
+	overflow-y: scroll !important;
+}
+
+.overflow-x-hidden {
+	overflow-x: hidden !important;
+}
+
+.overflow-y-hidden {
+	overflow-y: hidden !important;
+}
+
+.overflow-x-overlay {
+	overflow-x: overlay !important;
+}
+
+.overflow-y-overlay {
+	overflow-y: overlay !important;
+}
+
+.overflow-x-visible {
+	overflow-x: visible !important;
+}
+
+.overflow-y-visible {
+	overflow-y: visible !important;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-scroll {
+	overflow: scroll;
+}
+
+.overflow-overlay {
+	overflow: overlay;
+}
+
+.overflow-visible {
+	overflow: over;
+}
+
 .col {
 	display: flex;
 	flex-direction: column;
