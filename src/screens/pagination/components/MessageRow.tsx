@@ -62,7 +62,7 @@ const MessageFromOthers = (props: Props) => {
                     }}
                     src={Images["ic_user_fill"]}
                     className='h-20px w-20px br-50px' />
-                <div className="col align-items-end">
+                <div className="col align-items-start">
                     <div
                         style={{
                             background: "#edfbea",
